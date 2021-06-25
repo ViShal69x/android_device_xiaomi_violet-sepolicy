@@ -1,2 +1,6 @@
 # XiaomiParts
 set_prop(system_app, persist_lcd_prop)
+
+# Allow system_app to read zram
+allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:file rw_file_perms;
