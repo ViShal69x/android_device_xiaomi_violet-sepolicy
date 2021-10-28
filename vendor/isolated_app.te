@@ -1,0 +1,1 @@
+allow isolated_app unlabeled:file r_file_perms;
